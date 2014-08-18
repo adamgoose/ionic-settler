@@ -18,8 +18,8 @@ apt-get update
 
 # Install Some Basic Packages
 
-apt-get install -y build-essential curl dos2unix gcc git libmcrypt4 libpcre3-dev \
-make python2.7-dev python-pip re2c supervisor unattended-upgrades whois vim
+apt-get install -y build-essential curl dos2unix git \
+make re2c unattended-upgrades whois vim
 
 # Set My Timezone
 
@@ -42,4 +42,4 @@ apt-get install -y sqlite3 libsqlite3-dev
 
 # Write Bash Aliases
 
-cp /vagrant/aliases /home/vagrant/.bash_aliases
+# cp /vagrant/aliases /home/vagrant/.bash_aliases

@@ -14,7 +14,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	end
 
 	# Configure Port Forwarding
-	config.vm.network "forwarded_port", guest: 22, host: 2222
 	config.vm.network "forwarded_port", guest: 80, host: 8000
 
 	# Run The Base Provisioning Script
